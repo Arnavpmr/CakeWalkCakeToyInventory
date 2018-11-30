@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cupcake_final"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp">
+
+        <Button
+            android:id="@+id/MenuOrderBtn"
+            android:layout_width="127dp"
+            android:layout_height="wrap_content"
+            android:text="Menu" />
+
+        <Button
+            android:id="@+id/AddToyBtnOrder"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="ADD" />
+
+        <Spinner
+            android:id="@+id/spnrSearchFilter"
+            android:layout_width="128dp"
+            android:layout_height="match_parent">
+        </Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/searchText"
+            android:layout_width="380dp"
+            android:layout_height="match_parent"
+            android:hint="Search" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/CakeToyOrderList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"></ListView>
+
+</LinearLayout>

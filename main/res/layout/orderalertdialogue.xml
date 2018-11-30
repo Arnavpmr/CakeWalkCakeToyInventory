@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:minWidth="400dp"
+    android:minHeight="900dp">
+
+    <EditText
+        android:id="@+id/orderToyName"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="7dp"
+        android:ems="10"
+        android:hint="Toy Name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/msgText"
+        android:layout_width="304dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="473dp"
+        android:ems="10"
+        android:hint="Msg"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/orderToyID"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="75dp"
+        android:ems="10"
+        android:hint="Toy ID"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/cakeWeightText"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="74dp"
+        android:ems="10"
+        android:hint="Cake Weight"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/splRequestText"
+        android:layout_width="314dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="272dp"
+        android:ems="10"
+        android:hint="Spl Request"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/orderDate"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="146dp"
+        android:ems="10"
+        android:focusableInTouchMode="false"
+        android:hint="Dlvry Date"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/cakeFlavorText"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="143dp"
+        android:ems="10"
+        android:focusableInTouchMode="false"
+        android:hint="Cake Flavor"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/locationText"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="219dp"
+        android:ems="10"
+        android:focusableInTouchMode="false"
+        android:hint="Location"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/commentText"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="369dp"
+        android:ems="10"
+        android:hint="Comment"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/deliveryTimeText"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="11dp"
+        android:ems="10"
+        android:focusableInTouchMode="false"
+        android:hint="Dlvry Time"
+        android:inputType="time" />
+
+    <Button
+        android:id="@+id/orderAddBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="234dp"
+        android:layout_marginBottom="0dp"
+        android:text="ADD" />
+
+    <Button
+        android:id="@+id/orderBackBtnDisp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginBottom="0dp"
+        android:text="CANCEL" />
+</RelativeLayout>

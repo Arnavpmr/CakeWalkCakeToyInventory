@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fadedweddingcake"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/MenuBtn"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:text="Menu" />
+
+        <Button
+            android:id="@+id/AddToyBtn"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:text="ADD" />
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/SearchToyText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="SEARCH" />
+
+    <ListView
+        android:id="@+id/CakeToyList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"></ListView>
+
+</LinearLayout>

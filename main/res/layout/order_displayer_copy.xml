@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:minWidth="400dp"
+    android:minHeight="900dp">
+
+    <EditText
+        android:id="@+id/cakeWeightTextDisp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/deliveryTimeTextDisp"
+        android:layout_alignBottom="@+id/orderToyIDDisp"
+        android:hint="Cake Weight" />
+
+    <EditText
+        android:id="@+id/orderToyNameDisp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="9dp"
+        android:hint="Toy Name" />
+
+    <EditText
+        android:id="@+id/orderToyIDDisp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="114dp"
+        android:hint="Toy ID"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/orderBackBtnDisp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/cakeWeightTextDisp"
+        android:layout_alignTop="@+id/locationTextDisp"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="2dp"
+        android:text="BACK" />
+
+    <EditText
+        android:id="@+id/orderDateDisp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="232dp"
+        android:hint="Dlvry Date"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/deliveryTimeTextDisp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="10dp"
+        android:hint="Dlvry Time" />
+
+    <EditText
+        android:id="@+id/cakeFlavorTextDisp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/orderDateDisp"
+        android:layout_alignStart="@+id/deliveryTimeTextDisp"
+        android:hint="Cake Flavor"
+        android:inputType="none" />
+
+    <EditText
+        android:id="@+id/msgTextDisp"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="6dp"
+        android:hint="Msg"
+        android:inputType="textLongMessage" />
+
+    <EditText
+        android:id="@+id/splRequestTextDisp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/cakeWeightTextDisp"
+        android:layout_alignStart="@+id/msgTextDisp"
+        android:hint="Spl Request"
+        android:inputType="textLongMessage" />
+
+    <EditText
+        android:id="@+id/commentTextDisp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/orderDateDisp"
+        android:layout_alignStart="@+id/msgTextDisp"
+        android:hint="Comment"
+        android:inputType="textLongMessage" />
+
+    <EditText
+        android:id="@+id/locationTextDisp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="360dp"
+        android:hint="Location" />
+
+</RelativeLayout>
